@@ -2,9 +2,15 @@ header {
   margin-bottom: 24px;
 }
 
-header .muted {
+header .muted,
+header .rule {
   max-width: 520px;
   margin: 0 auto;
+}
+
+header .rule {
+  margin-top: 12px;
+  font-size: 15px;
 }
 
 .game {

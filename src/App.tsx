@@ -46,8 +46,15 @@ function App() {
       <header>
         <h1>Guess the build</h1>
         <p className="muted">
-          I started this course knowing none of these Pokémon. Can you tell a
-          tank from a glass cannon by looks alone?
+          I started this course knowing none of these Pokémon. Can you tell
+          which are tanks, which are glass cannons, and which are balanced,
+          by looks alone?
+        </p>
+        <p className="rule">
+          A <strong>tank</strong> has much more HP than attack, a{" "}
+          <strong>glass cannon</strong> the reverse, and{" "}
+          <strong>balanced</strong> is anywhere in between. The cutoff is a
+          1.3 ratio either way, a rule of thumb I chose for this set.
         </p>
       </header>
 

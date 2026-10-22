@@ -7,9 +7,9 @@ export type Build = "tank" | "glass" | "balanced";
 export type BuildInfo = { key: Build; label: string; hint: string };
 
 export const BUILDS: BuildInfo[] = [
-  { key: "tank", label: "Tank", hint: "HP well above attack" },
-  { key: "glass", label: "Glass cannon", hint: "Attack well above HP" },
-  { key: "balanced", label: "Balanced", hint: "HP and attack close" },
+  { key: "tank", label: "Tank", hint: "HP ≥ 1.3× attack" },
+  { key: "glass", label: "Glass cannon", hint: "Attack ≥ 1.3× HP" },
+  { key: "balanced", label: "Balanced", hint: "Neither, within 1.3×" },
 ];
 
 // rule of thumb: a ratio of 1.3 or more either way decides the build
